@@ -1,0 +1,76 @@
+/*section#1*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.image-box {
+	float: left;
+}
+.size {
+	margin-right: 30px;
+}
+.clear {
+	clear: both;
+}
+
+/*section#2*/
+.section-bg {
+	background-color: #E6E6E6;
+}
+.left-block {
+	width: 570px;
+	background-color: #F2F2F2;
+	float: left;
+	margin-right: 30px;
+}
+.right-block {
+	width: 570px;
+	background-color: lightblue;
+	float: left;
+}
+.image-block {
+	float: left;
+}
+.text-block {
+	float: left;
+	width: 355px;
+}
+.read {
+	float: right;
+	margin-right: 9px;
+}
+
+/*id*/
+#active {
+	/*...*/
+}
+
+/*section#3 - pseudo elements*/
+
+.test1::before {
+	content: 'Lesson 5';
+	color: red;
+	background-color: yellow;
+}
+/*.test1::after {
+	content: ' ';
+	width: 2px;
+	height: 27px;
+	background-color: blue;
+	display: inline-block;
+}*/
+.test1::after {
+	content: '\26A1';
+}
+
+.float1 {
+	float: left;
+}
+.float2 {
+	float: right;
+}
+.wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
